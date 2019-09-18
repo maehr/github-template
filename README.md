@@ -6,7 +6,7 @@ All the stuff I always use
 * [ ] add [www.gitignore.io](https://www.gitignore.io/) stuff to [.gitignore](.gitignore)
 * [ ] add [gitattributes.io](https://gitattributes.io/) stuff to [.gitattributes](.gitattributes)
 * [ ] add secrets to https://github.com/USERNAME/REPO_NAME/settings/secrets
-* [ ] add documentations to [docs](docs/index.md)
+* [ ] add documentation to [docs](docs/index.md)
 
 ---
 
