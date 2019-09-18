@@ -1,17 +1,23 @@
 All the stuff I always use
 
-* [ ] add FULLNAME, USERNAME and REPONAME to [README.md](README.md) according to [www.makeareadme.com](https://www.makeareadme.com/)
+* [ ] add FULLNAME, USERNAME and REPO_NAME to [README.md](README.md) according to [www.makeareadme.com](https://www.makeareadme.com/)
 * [ ] add YEAR and FULLNAME to [LICENSE.md](LICENSE.md)
 * [ ] add EMAILADDRESS to [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
 * [ ] add [www.gitignore.io](https://www.gitignore.io/) stuff to [.gitignore](.gitignore)
 * [ ] add [gitattributes.io](https://gitattributes.io/) stuff to [.gitattributes](.gitattributes)
-* [ ] add secrets to https://github.com/USERNAME/REPONAME/settings/secrets
+* [ ] add secrets to https://github.com/USERNAME/REPO_NAME/settings/secrets
+* [ ] add documentations to [docs](docs/index.md)
 
 ---
 
-# REPONAME
+# REPO_NAME
 
 Foobar is a Python library for dealing with word pluralization.
+
+[![GitHub issues](https://img.shields.io/github/issues/USERNAME/REPO_NAME.svg)](https://github.com/USERNAME/REPO_NAME/issues)
+[![GitHub forks](https://img.shields.io/github/forks/USERNAME/REPO_NAME.svg)](https://github.com/USERNAME/REPO_NAME/network)
+[![GitHub stars](https://img.shields.io/github/stars/USERNAME/REPO_NAME.svg)](https://github.com/USERNAME/REPO_NAME/stargazers)
+[![GitHub license](https://img.shields.io/github/license/USERNAME/REPO_NAME.svg)](https://github.com/USERNAME/REPO_NAME/blob/master/LICENSE.md)
 
 ## Installation
 
@@ -37,8 +43,8 @@ This project is maintained by [@USERNAME](https://github.com/USERNAME). Please u
 
 | Type                   | Platforms                                                    |
 | ---------------------- | ------------------------------------------------------------ |
-| 🚨 **Bug Reports**      | [GitHub Issue Tracker](https://github.com/USERNAME/REPONAME/issues) |
-| 🎁 **Feature Requests** | [GitHub Issue Tracker](https://github.com/USERNAME/REPONAME/issues) |
+| 🚨 **Bug Reports**      | [GitHub Issue Tracker](https://github.com/USERNAME/REPO_NAME/issues) |
+| 🎁 **Feature Requests** | [GitHub Issue Tracker](https://github.com/USERNAME/REPO_NAME/issues) |
 
 ## Roadmap
 
@@ -46,17 +52,17 @@ No changes are currently planned.
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://github.com/USERNAME/REPONAME/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://github.com/USERNAME/REPO_NAME/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/USERNAME/REPONAME/tags).
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/USERNAME/REPO_NAME/tags).
 
 ## Authors and acknowledgment
 
 - **FULLNAME** - _Initial work_ - [USERNAME](https://github.com/USERNAME)
 
-See also the list of [contributors](https://github.com/USERNAME/REPONAME/graphs/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/USERNAME/REPO_NAME/graphs/contributors) who participated in this project.
 
 ## License
 
