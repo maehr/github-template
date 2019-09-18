@@ -6,7 +6,7 @@
 * [ ] add [www.gitignore.io](https://www.gitignore.io/) stuff to [.gitignore](.gitignore)
 * [ ] add [gitattributes.io](https://gitattributes.io/) stuff to [.gitattributes](.gitattributes)
 * [ ] add secrets to https://github.com/USERNAME/REPO_NAME/settings/secrets
-* [ ] add documentation to [docs](docs/index.md) and activate gh-pages
+* [ ] add documentation to [docs](docs/index.md) and activate [gh-pages](https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages)
 * [ ] protect the master branch and enforce a [fork and pull](https://gist.github.com/Chaser324/ce0505fbed06b947d962) workflow
 * [ ] activate [GitHub security alerts](https://github.blog/2017-11-16-introducing-security-alerts-on-github/) and change [SECURITY.md](SECURITY.md) accordingly
 
