@@ -1,4 +1,4 @@
-All the stuff I always use
+# All the stuff I always use
 
 * [ ] add FULLNAME, USERNAME and REPO_NAME to [README.md](README.md) according to [www.makeareadme.com](https://www.makeareadme.com/)
 * [ ] add YEAR and FULLNAME to [LICENSE.md](LICENSE.md)
@@ -6,7 +6,9 @@ All the stuff I always use
 * [ ] add [www.gitignore.io](https://www.gitignore.io/) stuff to [.gitignore](.gitignore)
 * [ ] add [gitattributes.io](https://gitattributes.io/) stuff to [.gitattributes](.gitattributes)
 * [ ] add secrets to https://github.com/USERNAME/REPO_NAME/settings/secrets
-* [ ] add documentation to [docs](docs/index.md)
+* [ ] add documentation to [docs](docs/index.md) and activate gh-pages
+* [ ] protect the master branch and enforce a [fork and pull](https://gist.github.com/Chaser324/ce0505fbed06b947d962) workflow
+* [ ] activate [GitHub security alerts](https://github.blog/2017-11-16-introducing-security-alerts-on-github/) and change [SECURITY.md](SECURITY.md) accordingly
 
 ---
 
@@ -52,7 +54,7 @@ No changes are currently planned.
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://github.com/USERNAME/REPO_NAME/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
