@@ -8,7 +8,7 @@ This GitHub template is agnostic to the programming language used, uses GitHub A
 * [ ] use [www.gitignore.io](https://www.gitignore.io/) to enhance [.gitignore](.gitignore)
 * [ ] use [gitattributes.io](https://gitattributes.io/) to enhance [.gitattributes](.gitattributes)
 * [ ] add secrets variables to [secrets.example.env](secrets.example.env)
-* [ ] add `GITHUB_TOKEN` to https://github.com/USERNAME/REPO_NAME/settings/secrets
+* [ ] add `GITHUB_TOKEN` to https://github.com/USERNAME/REPO_NAME/settings/secrets to use [GitHub actions](https://help.github.com/en/articles/workflow-syntax-for-github-actions) like [stale](https://github.com/actions/stale) or [labeler](https://github.com/actions/labeler)
 * [ ] add documentation to [docs](docs/index.md) and activate [gh-pages](https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages)
 * [ ] [protect](https://help.github.com/en/articles/configuring-protected-branches) the master branch to enforce a [fork and pull](https://gist.github.com/Chaser324/ce0505fbed06b947d962) workflow
 * [ ] activate [GitHub security alerts](https://github.blog/2017-11-16-introducing-security-alerts-on-github/) and change [SECURITY.md](SECURITY.md) accordingly
