@@ -12,7 +12,7 @@ This GitHub template is agnostic to the programming language used, uses GitHub A
 * [ ] add documentation to [docs](docs/index.md) and activate [gh-pages](https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages)
 * [ ] [protect](https://help.github.com/en/articles/configuring-protected-branches) the master branch to enforce a [fork and pull](https://gist.github.com/Chaser324/ce0505fbed06b947d962) workflow
 * [ ] activate [GitHub security alerts](https://github.blog/2017-11-16-introducing-security-alerts-on-github/) and change [SECURITY.md](SECURITY.md) accordingly
-
+* [ ] add favicons to `docs/`, for example via [favicon.io](https://favicon.io/)
 ---
 
 # REPO_NAME
