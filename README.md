@@ -50,6 +50,7 @@ This project is maintained by [@USERNAME](https://github.com/USERNAME). Please u
 | ---------------------- | ------------------------------------------------------------ |
 | 🚨 **Bug Reports**      | [GitHub Issue Tracker](https://github.com/USERNAME/REPO_NAME/issues) |
 | 🎁 **Feature Requests** | [GitHub Issue Tracker](https://github.com/USERNAME/REPO_NAME/issues) |
+| 🛡 **Report a security vulnerability**      | [GitHub Issue Tracker](https://github.com/USERNAME/REPO_NAME/issues) |
 
 ## Roadmap
 
