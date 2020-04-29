@@ -4,7 +4,7 @@ This GitHub template is agnostic to the programming language used, uses GitHub A
 
 * [ ] add `FULLNAME`, `USERNAME` and `REPO_NAME` to [README.md](README.md) and change it according to [www.makeareadme.com](https://www.makeareadme.com/)
 * [ ] add `YEAR` and `FULLNAME` to [LICENSE.md](LICENSE.md)
-* [ ] add `EMAILADDRESS` to [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
+* [ ] change `[INSERT CONTACT METHOD]` in [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
 * [ ] use [www.gitignore.io](https://www.gitignore.io/) to enhance [.gitignore](.gitignore)
 * [ ] use [gitattributes.io](https://gitattributes.io/) to enhance [.gitattributes](.gitattributes)
 * [ ] add example environment variables to [example.env](example.env)
