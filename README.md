@@ -3,7 +3,6 @@
 This GitHub template is agnostic to the programming language used, uses GitHub Actions to manage issues and pull requests, and helps enforce best practices for small projects.  To use the template, [generate](https://github.com/maehr/github-template/generate) a new project and perform the following tasks.
 
 * [ ] add `FULLNAME`, `USERNAME` and `REPO_NAME` to [README.md](README.md) and change it according to [www.makeareadme.com](https://www.makeareadme.com/)
-* [ ] add `YEAR` and `FULLNAME` to [LICENSE.md](LICENSE.md)
 * [ ] change `[INSERT CONTACT METHOD]` in [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
 * [ ] use [www.gitignore.io](https://www.gitignore.io/) to enhance [.gitignore](.gitignore)
 * [ ] use [gitattributes.io](https://gitattributes.io/) to enhance [.gitattributes](.gitattributes)
@@ -73,4 +72,4 @@ See also the list of [contributors](https://github.com/USERNAME/REPO_NAME/graphs
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE.md](LICENSE.md) file for details
