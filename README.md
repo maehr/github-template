@@ -12,6 +12,7 @@ This GitHub template is agnostic to the programming language used, uses GitHub A
 * [ ] [protect](https://help.github.com/en/articles/configuring-protected-branches) the master branch to enforce a [fork and pull](https://gist.github.com/Chaser324/ce0505fbed06b947d962) workflow
 * [ ] activate [GitHub security alerts](https://github.blog/2017-11-16-introducing-security-alerts-on-github/) and change [SECURITY.md](SECURITY.md) accordingly
 * [ ] add favicons to `./`, for example via [favicon.io](https://favicon.io/)
+* [ ] keep a `CHANGELOG.md` according to [keepachangelog.com](https://keepachangelog.com/)
 
 ---
 
