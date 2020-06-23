@@ -11,7 +11,7 @@ SHORT_DESCRIPTION
 
 This GitHub template is agnostic to the programming language used, uses GitHub Actions to manage issues and pull requests, and helps enforce best practices for small projects.  To use the template, [generate](https://github.com/maehr/github-template/generate) a new project and perform the following tasks.
 
-* [ ] add `FULLNAME`, `USERNAME` and `REPO_NAME` to [README.md](README.md) and change it according to [www.makeareadme.com](https://www.makeareadme.com/)
+* [ ] add `FULLNAME`, `USERNAME`, `REPO_NAME` and `SHORT_DESCRIPTION` to [README.md](README.md) and change it according to [www.makeareadme.com](https://www.makeareadme.com/)
 * [ ] change `[INSERT CONTACT METHOD]` in [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
 * [ ] use [www.gitignore.io](https://www.gitignore.io/) to enhance [.gitignore](.gitignore)
 * [ ] use [gitattributes.io](https://gitattributes.io/) to enhance [.gitattributes](.gitattributes)
