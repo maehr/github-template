@@ -1,4 +1,13 @@
-# GitHub template for small projects
+# REPO_NAME
+
+SHORT_DESCRIPTION
+
+[![GitHub issues](https://img.shields.io/github/issues/USERNAME/REPO_NAME.svg)](https://github.com/USERNAME/REPO_NAME/issues)
+[![GitHub forks](https://img.shields.io/github/forks/USERNAME/REPO_NAME.svg)](https://github.com/USERNAME/REPO_NAME/network)
+[![GitHub stars](https://img.shields.io/github/stars/USERNAME/REPO_NAME.svg)](https://github.com/USERNAME/REPO_NAME/stargazers)
+[![GitHub license](https://img.shields.io/github/license/USERNAME/REPO_NAME.svg)](https://github.com/USERNAME/REPO_NAME/blob/master/LICENSE.md)
+
+## Todo
 
 This GitHub template is agnostic to the programming language used, uses GitHub Actions to manage issues and pull requests, and helps enforce best practices for small projects.  To use the template, [generate](https://github.com/maehr/github-template/generate) a new project and perform the following tasks.
 
@@ -13,17 +22,6 @@ This GitHub template is agnostic to the programming language used, uses GitHub A
 * [ ] activate [GitHub security alerts](https://github.blog/2017-11-16-introducing-security-alerts-on-github/) and change [SECURITY.md](SECURITY.md) accordingly
 * [ ] add favicons to `./`, for example via [favicon.io](https://favicon.io/)
 * [ ] keep a `CHANGELOG.md` according to [keepachangelog.com](https://keepachangelog.com/)
-
----
-
-# REPO_NAME
-
-SHORT_DESCRIPTION
-
-[![GitHub issues](https://img.shields.io/github/issues/USERNAME/REPO_NAME.svg)](https://github.com/USERNAME/REPO_NAME/issues)
-[![GitHub forks](https://img.shields.io/github/forks/USERNAME/REPO_NAME.svg)](https://github.com/USERNAME/REPO_NAME/network)
-[![GitHub stars](https://img.shields.io/github/stars/USERNAME/REPO_NAME.svg)](https://github.com/USERNAME/REPO_NAME/stargazers)
-[![GitHub license](https://img.shields.io/github/license/USERNAME/REPO_NAME.svg)](https://github.com/USERNAME/REPO_NAME/blob/master/LICENSE.md)
 
 ## Installation
 
