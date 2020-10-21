@@ -5,7 +5,7 @@ SHORT_DESCRIPTION
 [![GitHub issues](https://img.shields.io/github/issues/USERNAME/REPO_NAME.svg)](https://github.com/USERNAME/REPO_NAME/issues)
 [![GitHub forks](https://img.shields.io/github/forks/USERNAME/REPO_NAME.svg)](https://github.com/USERNAME/REPO_NAME/network)
 [![GitHub stars](https://img.shields.io/github/stars/USERNAME/REPO_NAME.svg)](https://github.com/USERNAME/REPO_NAME/stargazers)
-[![GitHub license](https://img.shields.io/github/license/USERNAME/REPO_NAME.svg)](https://github.com/USERNAME/REPO_NAME/blob/master/LICENSE.md)
+[![GitHub license](https://img.shields.io/github/license/USERNAME/REPO_NAME.svg)](https://github.com/USERNAME/REPO_NAME/blob/main/LICENSE.md)
 
 ## Todo
 
@@ -18,7 +18,7 @@ This GitHub template is agnostic to the programming language used, uses GitHub A
 * [ ] add example environment variables to [example.env](example.env)
 * [ ] add [GitHub actions](https://help.github.com/en/articles/workflow-syntax-for-github-actions) in `.github/workflows/` according to [starter-workflows](https://github.com/actions/starter-workflows)
 * [ ] activate [gh-pages](https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages)
-* [ ] [protect](https://help.github.com/en/articles/configuring-protected-branches) the master branch to enforce a [fork and pull](https://gist.github.com/Chaser324/ce0505fbed06b947d962) workflow
+* [ ] [protect](https://help.github.com/en/articles/configuring-protected-branches) the main branch to enforce a [fork and pull](https://gist.github.com/Chaser324/ce0505fbed06b947d962) workflow
 * [ ] activate [GitHub security alerts](https://github.blog/2017-11-16-introducing-security-alerts-on-github/) and change [SECURITY.md](SECURITY.md) accordingly
 * [ ] add favicons to `./`, for example via [favicon.io](https://favicon.io/)
 * [ ] keep a `CHANGELOG.md` according to [keepachangelog.com](https://keepachangelog.com/)
