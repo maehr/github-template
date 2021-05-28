@@ -16,7 +16,7 @@ This GitHub template is agnostic to the programming language used, uses GitHub A
 * [ ] use [www.gitignore.io](https://www.gitignore.io/) to enhance [.gitignore](.gitignore)
 * [ ] use [gitattributes.io](https://gitattributes.io/) to enhance [.gitattributes](.gitattributes)
 * [ ] add example environment variables to [example.env](example.env)
-* [ ] add [GitHub actions](https://help.github.com/en/articles/workflow-syntax-for-github-actions) in `.github/workflows/` according to [starter-workflows](https://github.com/actions/starter-workflows)
+* [ ] add [GitHub actions](https://docs.github.com/en/actions) in `.github/workflows/` according to [starter-workflows](https://github.com/actions/starter-workflows)
 * [ ] activate [gh-pages](https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages)
 * [ ] [protect](https://help.github.com/en/articles/configuring-protected-branches) the main branch to enforce a [fork and pull](https://gist.github.com/Chaser324/ce0505fbed06b947d962) workflow
 * [ ] activate [GitHub security alerts](https://github.blog/2017-11-16-introducing-security-alerts-on-github/) and change [SECURITY.md](SECURITY.md) accordingly
