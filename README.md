@@ -12,6 +12,7 @@ SHORT_DESCRIPTION
 This GitHub template is agnostic to the programming language used, uses GitHub Actions to manage issues and pull requests, and helps enforce best practices for small projects.  To use the template, [generate](https://github.com/maehr/github-template/generate) a new project and perform the following tasks.
 
 * [ ] add `FULLNAME`, `USERNAME`, `REPO_NAME` and `SHORT_DESCRIPTION` to [README.md](README.md) and change it according to [www.makeareadme.com](https://www.makeareadme.com/)
+* [ ] add `REPO_NAME` to [package.json](package.json) according to [npm docs](https://docs.npmjs.com/cli/v7/configuring-npm/package-json)
 * [ ] change `[INSERT CONTACT METHOD]` in [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
 * [ ] use [www.gitignore.io](https://www.gitignore.io/) to enhance [.gitignore](.gitignore)
 * [ ] use [gitattributes.io](https://gitattributes.io/) to enhance [.gitattributes](.gitattributes)
@@ -25,20 +26,17 @@ This GitHub template is agnostic to the programming language used, uses GitHub A
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Use the package manager [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) to install [Prettier](https://prettier.io/).
 
 ```bash
-pip install foobar
+npm install
 ```
 
 ## Usage
 
-```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
+```bash
+npm run check
+npm run format
 ```
 
 ## Support

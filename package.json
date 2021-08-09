@@ -1,0 +1,12 @@
+{
+	"name": "REPO_NAME",
+	"version": "0.0.1",
+	"scripts": {
+		"check": "prettier --ignore-path .gitignore  --check . '!{CODE_OF_CONDUCT.md,LICENSE.md,_layouts/default.html}'",
+		"format": "prettier --ignore-path .gitignore --write . '!{CODE_OF_CONDUCT.md,LICENSE.md,_layouts/default.html}'"
+	},
+	"devDependencies": {
+		"prettier": "~2.2.1"
+	},
+	"type": "module"
+}
