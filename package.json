@@ -1,6 +1,8 @@
 {
 	"name": "REPO_NAME",
 	"version": "0.0.1",
+	"url": "https://github.com/USERNAME/REPO_NAME/issues",
+	"license" : "GPL-3.0",
 	"scripts": {
 		"check": "prettier --ignore-path .gitignore  --check . '!{CODE_OF_CONDUCT.md,LICENSE.md,_layouts/default.html}'",
 		"format": "prettier --ignore-path .gitignore --write . '!{CODE_OF_CONDUCT.md,LICENSE.md,_layouts/default.html}'"
