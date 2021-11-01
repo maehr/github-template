@@ -2,13 +2,25 @@
 	"name": "REPO_NAME",
 	"version": "0.0.1",
 	"url": "https://github.com/USERNAME/REPO_NAME/issues",
-	"license" : "GPL-3.0",
+	"license": "GPL-3.0",
 	"scripts": {
 		"check": "prettier --ignore-path .gitignore  --check . '!{CODE_OF_CONDUCT.md,LICENSE.md,_layouts/default.html}'",
+		"commit": "cz",
 		"format": "prettier --ignore-path .gitignore --write . '!{CODE_OF_CONDUCT.md,LICENSE.md,_layouts/default.html}'"
 	},
 	"devDependencies": {
+		"cz-conventional-changelog": "^3.3.0",
 		"prettier": "~2.2.1"
 	},
-	"type": "module"
+	"type": "module",
+	"config": {
+		"commitizen": {
+			"path": "./node_modules/cz-conventional-changelog"
+		},
+		"husky": {
+			"hooks": {
+				"prepare-commit-msg": "exec < /dev/tty && git cz --hook || true"
+			}
+		}
+	}
 }
