@@ -13,6 +13,7 @@ This GitHub template is agnostic to the programming language used, uses GitHub A
 
 - [ ] add `FULLNAME`, `USERNAME`, `REPO_NAME` and `SHORT_DESCRIPTION` to [README.md](README.md) and change it according to [www.makeareadme.com](https://www.makeareadme.com/)
 - [ ] add `REPO_NAME` to [package.json](package.json) according to [npm docs](https://docs.npmjs.com/cli/v7/configuring-npm/package-json)
+- [ ] run `pnpm install` to install [prettier](https://prettier.io/) and [husky](https://github.com/typicode/husky) via [pnpm](https://pnpm.io/)
 - [ ] change `[INSERT CONTACT METHOD]` in [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
 - [ ] use [www.gitignore.io](https://www.gitignore.io/) to enhance [.gitignore](.gitignore)
 - [ ] use [gitattributes.io](https://gitattributes.io/) to enhance [.gitattributes](.gitattributes)
