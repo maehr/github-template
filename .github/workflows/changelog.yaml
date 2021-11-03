@@ -1,3 +1,7 @@
+name: Create changelog
+
+on: [push]
+
 jobs:
   changelog:
     name: Generate changelog
