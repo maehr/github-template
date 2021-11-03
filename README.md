@@ -13,6 +13,7 @@ This GitHub template is agnostic to the programming language used, uses GitHub A
 
 - [ ] add `FULLNAME`, `USERNAME`, `REPO_NAME` and `SHORT_DESCRIPTION` to [README.md](README.md) and change it according to [www.makeareadme.com](https://www.makeareadme.com/)
 - [ ] add `REPO_NAME` to [package.json](package.json) according to [npm docs](https://docs.npmjs.com/cli/v7/configuring-npm/package-json)
+- [ ] run `pnpm install` to install [prettier](https://prettier.io/) and [husky](https://github.com/typicode/husky) via [pnpm](https://pnpm.io/)
 - [ ] change `[INSERT CONTACT METHOD]` in [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
 - [ ] use [www.gitignore.io](https://www.gitignore.io/) to enhance [.gitignore](.gitignore)
 - [ ] use [gitattributes.io](https://gitattributes.io/) to enhance [.gitattributes](.gitattributes)
@@ -22,7 +23,7 @@ This GitHub template is agnostic to the programming language used, uses GitHub A
 - [ ] [protect](https://help.github.com/en/articles/configuring-protected-branches) the main branch to enforce a [fork and pull](https://gist.github.com/Chaser324/ce0505fbed06b947d962) workflow
 - [ ] activate [GitHub security alerts](https://github.blog/2017-11-16-introducing-security-alerts-on-github/) and change [SECURITY.md](SECURITY.md) accordingly
 - [ ] add favicons to `./`, for example via [favicon.io](https://favicon.io/)
-- [ ] keep a `CHANGELOG.md` according to [keepachangelog.com](https://keepachangelog.com/)
+- [ ] keep a `CHANGELOG.md` according to [keepachangelog.com](https://keepachangelog.com/) and [git-cliff](https://github.com/orhun/git-cliff)
 
 ## Installation
 
