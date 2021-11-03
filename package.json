@@ -6,10 +6,12 @@
 	"scripts": {
 		"check": "prettier --ignore-path .gitignore  --check . '!{CODE_OF_CONDUCT.md,LICENSE.md,_layouts/default.html}'",
 		"commit": "cz",
-		"format": "prettier --ignore-path .gitignore --write . '!{CODE_OF_CONDUCT.md,LICENSE.md,_layouts/default.html}'"
+		"format": "prettier --ignore-path .gitignore --write . '!{CODE_OF_CONDUCT.md,LICENSE.md,_layouts/default.html}'",
+		"prepare": "husky install"
 	},
 	"devDependencies": {
 		"cz-conventional-changelog": "^3.3.0",
+		"husky": "^7.0.4",
 		"prettier": "~2.2.1"
 	},
 	"type": "module",
