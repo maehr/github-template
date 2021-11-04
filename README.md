@@ -1,15 +1,13 @@
-# REPO_NAME
+# HitHub template for small projects
 
-SHORT_DESCRIPTION
+This GitHub template is agnostic to the programming language used, uses GitHub Actions to manage issues and pull requests, and helps enforce best practices for small projects. To use the template, [generate](https://github.com/maehr/github-template/generate) a new project and follow this guide.
 
-[![GitHub issues](https://img.shields.io/github/issues/USERNAME/REPO_NAME.svg)](https://github.com/USERNAME/REPO_NAME/issues)
-[![GitHub forks](https://img.shields.io/github/forks/USERNAME/REPO_NAME.svg)](https://github.com/USERNAME/REPO_NAME/network)
-[![GitHub stars](https://img.shields.io/github/stars/USERNAME/REPO_NAME.svg)](https://github.com/USERNAME/REPO_NAME/stargazers)
-[![GitHub license](https://img.shields.io/github/license/USERNAME/REPO_NAME.svg)](https://github.com/USERNAME/REPO_NAME/blob/main/LICENSE.md)
+[![GitHub issues](https://img.shields.io/github/issues/maehr/github-template.svg)](https://github.com/maehr/github-template/issues)
+[![GitHub forks](https://img.shields.io/github/forks/maehr/github-template.svg)](https://github.com/maehr/github-template/network)
+[![GitHub stars](https://img.shields.io/github/stars/maehr/github-template.svg)](https://github.com/maehr/github-template/stargazers)
+[![GitHub license](https://img.shields.io/github/license/maehr/github-template.svg)](https://github.com/maehr/github-template/blob/main/LICENSE.md)
 
 ## Todo
-
-This GitHub template is agnostic to the programming language used, uses GitHub Actions to manage issues and pull requests, and helps enforce best practices for small projects. To use the template, [generate](https://github.com/maehr/github-template/generate) a new project and perform the following tasks.
 
 - [ ] add `FULLNAME`, `USERNAME`, `REPO_NAME` and `SHORT_DESCRIPTION` to [README.md](README.md) and change it according to [www.makeareadme.com](https://www.makeareadme.com/)
 - [ ] add `REPO_NAME` to [package.json](package.json) according to [npm docs](https://docs.npmjs.com/cli/v7/configuring-npm/package-json)
@@ -42,13 +40,13 @@ npm run format
 
 ## Support
 
-This project is maintained by [@USERNAME](https://github.com/USERNAME). Please understand that we won't be able to provide individual support via email. We also believe that help is much more valuable if it's shared publicly, so that more people can benefit from it.
+This project is maintained by [@maehr](https://github.com/maehr). Please understand that we won't be able to provide individual support via email. We also believe that help is much more valuable if it's shared publicly, so that more people can benefit from it.
 
-| Type                                  | Platforms                                                            |
-| ------------------------------------- | -------------------------------------------------------------------- |
-| 🚨 **Bug Reports**                    | [GitHub Issue Tracker](https://github.com/USERNAME/REPO_NAME/issues) |
-| 🎁 **Feature Requests**               | [GitHub Issue Tracker](https://github.com/USERNAME/REPO_NAME/issues) |
-| 🛡 **Report a security vulnerability** | [GitHub Issue Tracker](https://github.com/USERNAME/REPO_NAME/issues) |
+| Type                                  | Platforms                                                               |
+| ------------------------------------- | ----------------------------------------------------------------------- |
+| 🚨 **Bug Reports**                    | [GitHub Issue Tracker](https://github.com/maehr/github-template/issues) |
+| 🎁 **Feature Requests**               | [GitHub Issue Tracker](https://github.com/maehr/github-template/issues) |
+| 🛡 **Report a security vulnerability** | [GitHub Issue Tracker](https://github.com/maehr/github-template/issues) |
 
 ## Roadmap
 
@@ -60,13 +58,13 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/USERNAME/REPO_NAME/tags).
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/maehr/github-template/tags).
 
 ## Authors and acknowledgment
 
-- **FULLNAME** - _Initial work_ - [USERNAME](https://github.com/USERNAME)
+- **Moritz Mähr** - _Initial work_ - [maehr](https://github.com/maehr)
 
-See also the list of [contributors](https://github.com/USERNAME/REPO_NAME/graphs/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/maehr/github-template/graphs/contributors) who participated in this project.
 
 ## License
 
