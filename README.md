@@ -36,7 +36,7 @@ This GitHub template is agnostic to the programming language used, uses GitHub A
 
 ### Security
 
-- [SECURITY.md] according to [GitHub](https://docs.github.com/en/code-security/getting-started/adding-a-security-policy-to-your-repository)
+- [SECURITY.md](SECURITY.md) according to [GitHub](https://docs.github.com/en/code-security/getting-started/adding-a-security-policy-to-your-repository)
 - [GitHub security alerts](https://github.blog/2017-11-16-introducing-security-alerts-on-github/)
 - Integrity via [GitHub branch protection](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/managing-a-branch-protection-rule)
 
