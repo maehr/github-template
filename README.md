@@ -79,7 +79,7 @@ yarn run prepare
 
 - [ ] change `[INSERT CONTACT METHOD]` in [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
 
-- [ ] choose an appropriate license with [choosealicense.com](https://choosealicense.com/)
+- [ ] choose an appropriate license with [choosealicense.com](https://choosealicense.com/) and update [README.template.md](README.template.md) and [LICENSE.md](LICENSE.md)
 
 - [ ] delete [README.md](README.md)
 - [ ] rename [README.template.md](README.template.md) to [README.md](README.md)
