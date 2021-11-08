@@ -9,12 +9,11 @@ This GitHub template is agnostic to the programming language used, uses GitHub A
 
 ## Why use a template (even for small projects)
 
-- Write better [documentation](#documentation)
-- Write more [consistent](#consistency) code
+- Write better [documentation](#documentation) for you and the community
+- Write more [consistent](#consistency) code and foster collaboration
 - Increase [security](#security)
 - Follow recognized [ethical principles](#ethics)
-- Foster collaboration and the [community](#community)
-- Promotion of the [Free and Open-source software](#foss)
+- Promote [Free and Open-source software](#foss)
 
 ## How this template helps you with this
 
@@ -22,44 +21,44 @@ This GitHub template is agnostic to the programming language used, uses GitHub A
 
 - [README.md](README.md) according to [www.makeareadme.com](https://www.makeareadme.com/)
 - [CHANGELOG.md](CHANGELOG.md) according to [keepachangelog.com](https://keepachangelog.com/)
-- Automated documentation via [git-cliff](https://github.com/orhun/git-cliff)
+- Automated [CHANGELOG.md](CHANGELOG.md) via [git-cliff](https://github.com/orhun/git-cliff)
 - [package.json](package.json) according to [npm docs](https://docs.npmjs.com/cli/v7/configuring-npm/package-json)
 - Accessible documentation via [gh-pages](https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages)
 
 ### Consistency
 
-- Install [Prettier](https://prettier.io/) and [husky](https://github.com/typicode/husky)
-- cz [conventionalcommits](https://www.conventionalcommits.org/en/v1.0.0/) and
-
-- [ ] add [GitHub actions](https://docs.github.com/en/actions) in `.github/workflows/` according to [starter-workflows](https://github.com/actions/starter-workflows)
+- Consistant formatting via [Prettier](https://prettier.io/)
+- Consistant commit messages according to [conventionalcommits](https://www.conventionalcommits.org/en/v1.0.0/) via [husky](https://github.com/typicode/husky)
+- Consistant [fork and pull](https://gist.github.com/Chaser324/ce0505fbed06b947d962) workflow via [GitHub branch protection](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/managing-a-branch-protection-rule)
 
 ### Security
 
-- [ ] [protect](https://help.github.com/en/articles/configuring-protected-branches) the main branch to enforce a [fork and pull](https://gist.github.com/Chaser324/ce0505fbed06b947d962) workflow
-- [ ] activate [GitHub security alerts](https://github.blog/2017-11-16-introducing-security-alerts-on-github/) and change [SECURITY.md](SECURITY.md) accordingly
+- [SECURITY.md] according to [GitHub](https://docs.github.com/en/code-security/getting-started/adding-a-security-policy-to-your-repository)
+- [GitHub security alerts](https://github.blog/2017-11-16-introducing-security-alerts-on-github/)
+- Integrity via [GitHub branch protection](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/managing-a-branch-protection-rule)
 
 ### Ethics
 
-- [ ] change `[INSERT CONTACT METHOD]` in [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) according to [Contributor Covenant](https://www.contributor-covenant.org/)
-
-### Community
-
-- [fork and pull](https://gist.github.com/Chaser324/ce0505fbed06b947d962) workflow
+- [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) according to [Contributor Covenant](https://www.contributor-covenant.org/)
 
 ### FOSS
 
-- Choose an open source license via [choosealicense.com](https://choosealicense.com/).
-
-_further readings_
-
-- [_Defining a Distinguished Engineer_ by Jessie Frazelle](https://web.archive.org/web/20210814040522/https://blog.jessfraz.com/post/defining-a-distinguished-engineer/)
-- [_Leadership CI_ by Jessie Frazelle & Kathy Simpson](https://web.archive.org/web/20211108095148/https://blog.jessfraz.com/post/leadership-ci/)
+- [LICENSE.md](LICENSE.md) according to [choosealicense.com](https://choosealicense.com/)
 
 ## Installation
 
 To initialize the template, [generate](https://github.com/maehr/github-template/generate) a new project and follow this guide:
 
-- [ ] Install the [latest LTS version or higher of Node](https://nodejs.org/en/download/) and all dependencies via [npm](https://www.npmjs.com/), or via [pnpm](https://pnpm.io/) or via [yarn](https://yarnpkg.com/).
+- [ ] add `FULLNAME`, `USERNAME`, `REPO_NAME` and `SHORT_DESCRIPTION` to [README.template.md](README.template.md)
+- [ ] add `USERNAME` and `REPO_NAME` to [package.json](package.json)
+- [ ] add favicons to `./`, for example via [favicon.io](https://favicon.io/)
+- [ ] activate [gh-pages](https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages)
+
+- [ ] add `USERNAME` and `REPO_NAME` to [SECURITY.md](SECURITY.md)
+- [ ] [protect](https://help.github.com/en/articles/configuring-protected-branches) the main branch to enforce a [fork and pull](https://gist.github.com/Chaser324/ce0505fbed06b947d962) workflow
+- [ ] activate [GitHub security alerts](https://github.blog/2017-11-16-introducing-security-alerts-on-github/)
+
+- [ ] install the [latest LTS version or higher of Node](https://nodejs.org/en/download/) and all dependencies via [npm](https://www.npmjs.com/), or via [pnpm](https://pnpm.io/) or via [yarn](https://yarnpkg.com/).
 
 ```bash
 # npm
@@ -75,12 +74,9 @@ yarn
 yarn run prepare
 ```
 
-- [ ] add `FULLNAME`, `USERNAME`, `REPO_NAME` and `SHORT_DESCRIPTION` to [README.template.md](README.template.md)
-- [ ] add `USERNAME` and `REPO_NAME` to [package.json](package.json)
 - [ ] change `[INSERT CONTACT METHOD]` in [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
 
-- [ ] activate [gh-pages](https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages)
-- [ ] add favicons to `./`, for example via [favicon.io](https://favicon.io/)
+- [ ] choose an appropriate license with [choosealicense.com](https://choosealicense.com/)
 
 - [ ] delete [README.md](README.md)
 - [ ] rename [README.template.md](README.template.md) to [README.md](README.md)
