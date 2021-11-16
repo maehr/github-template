@@ -1,6 +1,6 @@
 # GitHub template for small projects
 
-This GitHub template is agnostic to the programming language used, uses GitHub Actions to manage issues and pull requests, and helps enforce best practices for small projects.
+This GitHub template is agnostic to the programming language used, uses GitHub Actions to manage issues and pull requests, and helps enforce [best practices](https://opensource.guide/) for small projects.
 
 [![GitHub issues](https://img.shields.io/github/issues/maehr/github-template.svg)](https://github.com/maehr/github-template/issues)
 [![GitHub forks](https://img.shields.io/github/forks/maehr/github-template.svg)](https://github.com/maehr/github-template/network)
