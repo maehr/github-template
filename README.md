@@ -66,14 +66,17 @@ To initialize the template, [generate](https://github.com/maehr/github-template/
 
 ```bash
 # npm
+npm install commitizen -g
 npm install
 npm run prepare
 
 # pnpm
+pnpm add commitizen -g
 pnpm install
 pnpm run prepare
 
 # yarn
+yarn global add commitizen
 yarn
 yarn run prepare
 ```
