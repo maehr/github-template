@@ -1,6 +1,6 @@
 # GitHub template for small projects
 
-This GitHub template is agnostic to the programming language used, uses GitHub Actions to manage issues and pull requests, and helps enforce [best practices](https://opensource.guide/) for small projects.
+This GitHub template is independent of to the programming language used, uses GitHub Actions to manage issues and pull requests, and helps enforce best practices for small projects.
 
 [![GitHub issues](https://img.shields.io/github/issues/maehr/github-template.svg)](https://github.com/maehr/github-template/issues)
 [![GitHub forks](https://img.shields.io/github/forks/maehr/github-template.svg)](https://github.com/maehr/github-template/network)
@@ -15,7 +15,7 @@ This GitHub template is agnostic to the programming language used, uses GitHub A
 - Follow recognized [ethical principles](#ethics)
 - Promote [Free and Open-source software](#foss)
 
-## How this template helps you with this
+## How this template helps you
 
 ### Documentation
 
@@ -27,12 +27,12 @@ This GitHub template is agnostic to the programming language used, uses GitHub A
 
 ### Consistency
 
-- Consistant formatting via [Prettier](https://prettier.io/)
-- Consistant commit messages according to [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) via [husky](https://github.com/typicode/husky)
-- Consistant versioning via [Semantic Versioning](https://semver.org/spec/v2.0.0.html)
-- Consistant [fork and pull](https://gist.github.com/Chaser324/ce0505fbed06b947d962) workflow via [GitHub branch protection](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/managing-a-branch-protection-rule)
-- Consistant issues via [issue templates](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository)
-- Consistant labels for pull requests via [labeler](https://github.com/actions/labeler)
+- Consistent formatting via [Prettier](https://prettier.io/)
+- Consistent commit messages according to [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) via [husky](https://github.com/typicode/husky)
+- Consistent versioning via [Semantic Versioning](https://semver.org/spec/v2.0.0.html)
+- Consistent [fork and pull](https://gist.github.com/Chaser324/ce0505fbed06b947d962) workflow via [GitHub branch protection](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/managing-a-branch-protection-rule)
+- Consistent issues via [issue templates](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository)
+- Consistent labels for pull requests via [labeler](https://github.com/actions/labeler)
 
 ### Security
 
@@ -57,31 +57,30 @@ To initialize the template, [generate](https://github.com/maehr/github-template/
 - [ ] add `USERNAME` and `REPO_NAME` to [package.json](package.json)
 - [ ] add favicons to `./`, for example via [favicon.io](https://favicon.io/)
 - [ ] activate [gh-pages](https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages)
-
 - [ ] add `USERNAME` and `REPO_NAME` to [SECURITY.md](SECURITY.md)
 - [ ] [protect](https://help.github.com/en/articles/configuring-protected-branches) the main branch to enforce a [fork and pull](https://gist.github.com/Chaser324/ce0505fbed06b947d962) workflow
 - [ ] activate [GitHub security alerts](https://github.blog/2017-11-16-introducing-security-alerts-on-github/)
-
 - [ ] install the [latest LTS version or higher of Node](https://nodejs.org/en/download/) and all dependencies via [npm](https://www.npmjs.com/), or via [pnpm](https://pnpm.io/) or via [yarn](https://yarnpkg.com/).
 
 ```bash
 # npm
+npm install commitizen -g
 npm install
 npm run prepare
 
 # pnpm
+pnpm add commitizen -g
 pnpm install
 pnpm run prepare
 
 # yarn
+yarn global add commitizen
 yarn
 yarn run prepare
 ```
 
 - [ ] change `[INSERT CONTACT METHOD]` in [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
-
 - [ ] choose an appropriate license with [choosealicense.com](https://choosealicense.com/) and update [README.template.md](README.template.md) and [LICENSE.md](LICENSE.md)
-
 - [ ] delete [README.md](README.md)
 - [ ] rename [README.template.md](README.template.md) to [README.md](README.md)
 
