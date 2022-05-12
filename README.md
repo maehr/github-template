@@ -79,7 +79,7 @@ yarn
 yarn run prepare
 ```
 
-- [ ] change `[INSERT CONTACT METHOD]` in [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
+- [ ] change `[INSERT CONTACT METHOD]` in [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) and in [SECURITY.md](SECURITY.md)
 - [ ] choose an appropriate license with [choosealicense.com](https://choosealicense.com/) and update [README.template.md](README.template.md) and [LICENSE.md](LICENSE.md)
 - [ ] delete [README.md](README.md)
 - [ ] rename [README.template.md](README.template.md) to [README.md](README.md)
@@ -112,7 +112,7 @@ This project is maintained by [@maehr](https://github.com/maehr). Please underst
 | ------------------------------------- | ----------------------------------------------------------------------- |
 | 🚨 **Bug Reports**                    | [GitHub Issue Tracker](https://github.com/maehr/github-template/issues) |
 | 🎁 **Feature Requests**               | [GitHub Issue Tracker](https://github.com/maehr/github-template/issues) |
-| 🛡 **Report a security vulnerability** | [GitHub Issue Tracker](https://github.com/maehr/github-template/issues) |
+| 🛡 **Report a security vulnerability** | See [SECURITY.md](SECURITY.md)                                         |
 
 ## Roadmap
 
