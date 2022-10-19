@@ -112,7 +112,7 @@ This project is maintained by [@maehr](https://github.com/maehr). Please underst
 | ------------------------------------- | ----------------------------------------------------------------------- |
 | 🚨 **Bug Reports**                    | [GitHub Issue Tracker](https://github.com/maehr/github-template/issues) |
 | 🎁 **Feature Requests**               | [GitHub Issue Tracker](https://github.com/maehr/github-template/issues) |
-| 🛡 **Report a security vulnerability** | See [SECURITY.md](SECURITY.md)                                         |
+| 🛡 **Report a security vulnerability** | See [SECURITY.md](SECURITY.md)                                          |
 
 ## Roadmap
 
