@@ -54,7 +54,7 @@ This GitHub template is independent of to the programming language used, uses Gi
 To initialize the template, [generate](https://github.com/maehr/github-template/generate) a new project and follow this guide:
 
 - [ ] add `FULLNAME`, `USERNAME`, `REPO_NAME` and `SHORT_DESCRIPTION` to [README.template.md](README.template.md)
-- [ ] add `USERNAME` and `REPO_NAME` to [package.json](package.json)
+- [ ] add `FULLNAME`, `USERNAME`, `REPO_NAME` and `SHORT_DESCRIPTION` to [package.json](package.json)
 - [ ] add favicons to `./`, for example via [favicon.io](https://favicon.io/)
 - [ ] activate [gh-pages](https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages)
 - [ ] add `USERNAME` and `REPO_NAME` to [SECURITY.md](SECURITY.md)
@@ -64,22 +64,19 @@ To initialize the template, [generate](https://github.com/maehr/github-template/
 
 ```bash
 # npm
-npm install commitizen -g
 npm install
 npm run prepare
 
 # pnpm
-pnpm add commitizen -g
 pnpm install
 pnpm run prepare
 
 # yarn
-yarn global add commitizen
 yarn
 yarn run prepare
 ```
 
-- [ ] change `[INSERT CONTACT METHOD]` in [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) and in [SECURITY.md](SECURITY.md)
+- [ ] change `[INSERT CONTACT METHOD]` in [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md), [package.json](package.json) and in [SECURITY.md](SECURITY.md)
 - [ ] choose an appropriate license with [choosealicense.com](https://choosealicense.com/) and update [README.template.md](README.template.md) and [LICENSE.md](LICENSE.md)
 - [ ] delete [README.md](README.md)
 - [ ] rename [README.template.md](README.template.md) to [README.md](README.md)

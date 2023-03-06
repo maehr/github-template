@@ -1,8 +1,10 @@
 {
 	"name": "REPO_NAME",
+	"description": "SHORT_DESCRIPTION",
+	"author": "FULLNAME <[INSERT CONTACT METHOD]>",
 	"version": "0.0.1",
 	"url": "https://github.com/USERNAME/REPO_NAME/issues",
-	"license": "GPL-3.0",
+	"license": "AGPL-3.0",
 	"scripts": {
 		"check": "prettier --ignore-path .gitignore  --check . '!{CODE_OF_CONDUCT.md,LICENSE.md,_layouts/default.html}'",
 		"commit": "cz",
@@ -10,9 +12,10 @@
 		"prepare": "husky install"
 	},
 	"devDependencies": {
+		"commitizen": "^4.3.0",
 		"cz-conventional-changelog": "^3.3.0",
-		"husky": "^7.0.4",
-		"prettier": "~2.2.1"
+		"husky": "^8.0.3",
+		"prettier": "^2.8.4"
 	},
 	"type": "module",
 	"config": {
