@@ -1,0 +1,5 @@
+contact_links:
+  - name: Are you looking for documentation on REPO_NAME?
+    url: https://USERNAME.github.io/REPO_NAME
+    about: Please see the documentation for REPO_NAME on its GitHub Pages page.
+blank_issues_enabled: true

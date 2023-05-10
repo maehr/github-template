@@ -1,6 +1,6 @@
 # GitHub template for small projects
 
-This GitHub template is independent of to the programming language used, uses GitHub Actions to manage issues and pull requests, and helps enforce best practices for small projects.
+This is a GitHub template designed for small projects that is independent of the programming language used. It uses various GitHub features to manage issues and pull requests, while enforcing best practices for small projects.
 
 [![GitHub issues](https://img.shields.io/github/issues/maehr/github-template.svg)](https://github.com/maehr/github-template/issues)
 [![GitHub forks](https://img.shields.io/github/forks/maehr/github-template.svg)](https://github.com/maehr/github-template/network)
@@ -51,39 +51,32 @@ This GitHub template is independent of to the programming language used, uses Gi
 
 ## Installation
 
-To initialize the template, [generate](https://github.com/maehr/github-template/generate) a new project and follow this guide:
+To initialize the template, [generate](https://github.com/maehr/github-template/generate) or [clone](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) the repository to your local machine and follow this guide.
 
-- [ ] add `FULLNAME`, `USERNAME`, `REPO_NAME` and `SHORT_DESCRIPTION` to [README.template.md](README.template.md)
-- [ ] add `FULLNAME`, `USERNAME`, `REPO_NAME` and `SHORT_DESCRIPTION` to [package.json](package.json)
-- [ ] add favicons to `./`, for example via [favicon.io](https://favicon.io/)
-- [ ] activate [gh-pages](https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages)
-- [ ] add `USERNAME` and `REPO_NAME` to [SECURITY.md](SECURITY.md)
-- [ ] [protect](https://help.github.com/en/articles/configuring-protected-branches) the main branch to enforce a [fork and pull](https://gist.github.com/Chaser324/ce0505fbed06b947d962) workflow
-- [ ] activate [GitHub security alerts](https://github.blog/2017-11-16-introducing-security-alerts-on-github/)
-- [ ] install the [latest LTS version or higher of Node](https://nodejs.org/en/download/) and all dependencies via [npm](https://www.npmjs.com/), or via [pnpm](https://pnpm.io/) or via [yarn](https://yarnpkg.com/).
+1. Install [Node.js](https://nodejs.org/en/) and run the following commands in the root directory of the repository:
 
 ```bash
-# npm
 npm install
 npm run prepare
-
-# pnpm
-pnpm install
-pnpm run prepare
-
-# yarn
-yarn
-yarn run prepare
 ```
 
-- [ ] change `[INSERT CONTACT METHOD]` in [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md), [package.json](package.json) and in [SECURITY.md](SECURITY.md)
-- [ ] choose an appropriate license with [choosealicense.com](https://choosealicense.com/) and update [README.template.md](README.template.md) and [LICENSE.md](LICENSE.md)
+2. Complete the following checklist of tasks to customize the template for your project:
+
+- [ ] enable [GitHub security alerts](https://github.blog/2017-11-16-introducing-security-alerts-on-github/)
+- [ ] [protect](https://help.github.com/en/articles/configuring-protected-branches) the main branch to enforce a [fork and pull](https://gist.github.com/Chaser324/ce0505fbed06b947d962) workflow
+- [ ] search and replace `FULLNAME`, `USERNAME`, `REPO_NAME`, `SHORT_DESCRIPTION` `[INSERT CONTACT METHOD]` in [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md), [package.json](package.json), [README.md](README.md), [SECURITY.md](SECURITY.md), [config.yml](.github/ISSUE_TEMPLATE/config.yml)
+- [ ] add favicons to `./`, e.g. via [favicon.io](https://favicon.io/)
+- [ ] search for `TODO` in the project (mostly documentation) and fix it
 - [ ] delete [README.md](README.md)
 - [ ] rename [README.template.md](README.template.md) to [README.md](README.md)
+- [ ] run `npm run format` to format all files
+- [ ] run `npm run commit` to commit all changes
+- [ ] run `npm run changelog` and include the output in [CHANGELOG.md](CHANGELOG.md)
+- [ ] enable [gh-pages](https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages)
 
 ## Usage
 
-Check if all files are formatted correctly.
+Check that all files are properly formatted.
 
 ```bash
 npm run check
@@ -101,6 +94,12 @@ Run the wizard to write meaningful commit messages.
 npm run commit
 ```
 
+Run the wizard to create a CHANGELOG.md.
+
+```bash
+npm run changelog
+```
+
 ## Support
 
 This project is maintained by [@maehr](https://github.com/maehr). Please understand that we won't be able to provide individual support via email. We also believe that help is much more valuable if it's shared publicly, so that more people can benefit from it.
@@ -108,6 +107,7 @@ This project is maintained by [@maehr](https://github.com/maehr). Please underst
 | Type                                  | Platforms                                                               |
 | ------------------------------------- | ----------------------------------------------------------------------- |
 | 🚨 **Bug Reports**                    | [GitHub Issue Tracker](https://github.com/maehr/github-template/issues) |
+| 📚 **Docs Issue**                     | [GitHub Issue Tracker](https://github.com/maehr/github-template/issues) |
 | 🎁 **Feature Requests**               | [GitHub Issue Tracker](https://github.com/maehr/github-template/issues) |
 | 🛡 **Report a security vulnerability** | See [SECURITY.md](SECURITY.md)                                          |
 
