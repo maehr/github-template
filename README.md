@@ -104,12 +104,13 @@ npm run changelog
 
 This project is maintained by [@maehr](https://github.com/maehr). Please understand that we won't be able to provide individual support via email. We also believe that help is much more valuable if it's shared publicly, so that more people can benefit from it.
 
-| Type                                  | Platforms                                                               |
-| ------------------------------------- | ----------------------------------------------------------------------- |
-| 🚨 **Bug Reports**                    | [GitHub Issue Tracker](https://github.com/maehr/github-template/issues) |
-| 📚 **Docs Issue**                     | [GitHub Issue Tracker](https://github.com/maehr/github-template/issues) |
-| 🎁 **Feature Requests**               | [GitHub Issue Tracker](https://github.com/maehr/github-template/issues) |
-| 🛡 **Report a security vulnerability** | See [SECURITY.md](SECURITY.md)                                          |
+| Type                                  | Platforms                                                                  |
+| ------------------------------------- | -------------------------------------------------------------------------- |
+| 🚨 **Bug Reports**                    | [GitHub Issue Tracker](https://github.com/maehr/github-template/issues)    |
+| 📚 **Docs Issue**                     | [GitHub Issue Tracker](https://github.com/maehr/github-template/issues)    |
+| 🎁 **Feature Requests**               | [GitHub Issue Tracker](https://github.com/maehr/github-template/issues)    |
+| 🛡 **Report a security vulnerability** | See [SECURITY.md](SECURITY.md)                                             |
+| 💬 **General Questions**              | [GitHub Discussions](https://github.com/maehr/github-template/discussions) |
 
 ## Roadmap
 
