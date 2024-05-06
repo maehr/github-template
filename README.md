@@ -32,7 +32,6 @@ This is a GitHub template designed for small projects that is independent of the
 - Consistent versioning via [Semantic Versioning](https://semver.org/spec/v2.0.0.html)
 - Consistent [fork and pull](https://gist.github.com/Chaser324/ce0505fbed06b947d962) workflow via [GitHub branch protection](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/managing-a-branch-protection-rule)
 - Consistent issues via [issue templates](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository)
-- Consistent labels for pull requests via [labeler](https://github.com/actions/labeler)
 
 ### Security
 
