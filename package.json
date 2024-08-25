@@ -1,21 +1,21 @@
 {
-	"name": "REPO_NAME",
-	"description": "SHORT_DESCRIPTION",
-	"author": "FULLNAME <[INSERT CONTACT METHOD]>",
+	"name": "moritzmaehr.ch",
+	"description": "Digital tales: personal weblog of Moritz Mähr.",
+	"author": "Moritz Mähr <moritz.maehr@gmail.com>",
 	"version": "0.0.1",
-	"url": "https://github.com/USERNAME/REPO_NAME/issues",
+	"url": "https://github.com/maehr/moritzmaehr.ch/issues",
 	"license": "AGPL-3.0",
 	"scripts": {
-		"check": "prettier --ignore-path .gitignore --check . '!{CODE_OF_CONDUCT.md,LICENSE.md,_layouts/default.html}'",
+		"check": "prettier --ignore-path .gitignore --check . '!{CODE_OF_CONDUCT.md,LICENSE-AGPL.md,LICENSE-CCBYSA.md}'",
 		"commit": "cz",
-		"format": "prettier --ignore-path .gitignore --write . '!{CODE_OF_CONDUCT.md,LICENSE.md,_layouts/default.html}'",
+		"format": "prettier --ignore-path .gitignore --write . '!{CODE_OF_CONDUCT.md,LICENSE-AGPL.md,LICENSE-CCBYSA.md}'",
 		"prepare": "husky"
 	},
 	"devDependencies": {
 		"commitizen": "^4.3.0",
 		"cz-conventional-changelog": "^3.3.0",
-		"husky": "^9.0.11",
-		"prettier": "^3.2.5"
+		"husky": "^9.1.5",
+		"prettier": "^3.3.3"
 	},
 	"type": "module",
 	"config": {

@@ -1,0 +1,82 @@
+project:
+  # type: manuscript
+  type: website
+
+# manuscript:
+#   article: index.qmd
+
+website:
+  title: Moritz Mähr
+  favicon: 1F47E_color.png
+  open-graph: true
+  twitter-card: true
+  navbar:
+    left:
+      - href: '#curriculum-vitae'
+        text: CV
+      - href: '#publications'
+        text: Publications
+    tools:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/moritz-maehr/
+      - icon: github
+        href: https://github.com/maehr/moritzmaehr.ch
+      # - icon: github
+      #   menu:
+      #     - text: Source Code
+      #       href:  https://github.com/maehr/moritzmaehr.ch
+      #     - text: Report a Bug
+      #       href:  https://bugs.com
+  page-navigation: true
+  bread-crumbs: false
+  back-to-top-navigation: true
+  search:
+    show-item-context: true
+    type: overlay
+  # sidebar:
+  #   tools:
+  #     - icon: linkedin
+  #       href: https://www.linkedin.com/in/moritz-maehr/
+  #     - icon: github
+  #       menu:
+  #         - text: Source Code
+  #           href:  https://github.com/maehr/moritzmaehr.ch
+  #         - text: Report a Bug
+  #           href:  https://bugs.com
+
+format:
+  html:
+    link-external-icon: true
+    link-external-newwindow: true
+    theme: pulse
+    toc: true
+    toc-location: left
+    citations-hover: true
+    crossrefs-hover: true
+    # code-block-bg: true
+    # code-copy: true
+    # code-fold: true
+    # code-tools: true
+    # code-overflow: wrap
+    # title-block-style: default
+    # title-block-banner: portrait.jpeg
+    repo-url: https://github.com/maehr/moritzmaehr.ch
+    repo-actions: false
+    page-layout: full
+    # mainfont: Jost
+    # other-links:
+    #   - text: NASA Open Data
+    #     href: https://data.nasa.gov/
+    # code-links:
+    #   - text: Data Import Code
+    #     icon: file-code
+    #     href: data-import.py
+  pdf:
+    documentclass: scrartcl
+    geometry: [a4paper, bindingoffset=0mm, inner=30mm, outer=30mm, top=30mm, bottom=30mm]
+    # classoption: [titlepage, openright, DIV=calc, toc=listof, listof=nochaptergap]
+
+# execute:
+#   freeze: auto
+
+editor: visual
