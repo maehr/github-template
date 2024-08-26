@@ -48,7 +48,9 @@ format:
   html:
     link-external-icon: true
     link-external-newwindow: true
-    theme: pulse
+    theme:
+      - pulse
+      - custom.scss
     toc: true
     toc-location: left
     citations-hover: true
@@ -71,6 +73,8 @@ format:
     #   - text: Data Import Code
     #     icon: file-code
     #     href: data-import.py
+    include-in-header:
+      - custom-header.html
   pdf:
     documentclass: scrartcl
     geometry: [a4paper, bindingoffset=0mm, inner=30mm, outer=30mm, top=30mm, bottom=30mm]
