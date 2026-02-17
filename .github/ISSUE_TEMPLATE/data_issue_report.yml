@@ -1,0 +1,50 @@
+name: 📊 Report Data Issue
+description: Report faulty or missing data
+title: '[DATE]: [TITLE]'
+labels: [data issue]
+body:
+  - type: markdown
+    attributes:
+      value: A clear and concise description of the data issue. Use this template to report problems with data files, datasets, or data quality.
+  - type: input
+    id: dataset
+    attributes:
+      label: 'Dataset Information'
+      description: 'Specify the file path or dataset name'
+      placeholder: 'e.g., data/users.csv or API endpoint /api/v1/data'
+    validations:
+      required: true
+  - type: textarea
+    id: expected_data
+    attributes:
+      label: 'Expected Data'
+      description: 'A clear and concise description of what the expected data should be.'
+      placeholder: 'Describe the expected data structure, values, or behavior.'
+    validations:
+      required: true
+  - type: textarea
+    id: actual_data
+    attributes:
+      label: 'Actual Data'
+      description: 'A clear and concise description of what the actual data is, including any discrepancies or errors.'
+      placeholder: 'Describe the actual data found, including specific errors, missing values, or incorrect formats.'
+    validations:
+      required: true
+  - type: input
+    id: screenshot
+    attributes:
+      label: 'Screenshot/Example (if applicable)'
+      description: 'Provide a link to a screenshot or example file demonstrating the issue'
+      placeholder: 'https://... or attach files below'
+  - type: textarea
+    id: impact
+    attributes:
+      label: 'Impact'
+      description: 'Describe the impact of this data issue on your work or the project'
+      placeholder: 'e.g., Cannot proceed with analysis, incorrect results generated, etc.'
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: 'Additional Context'
+      description: 'Add any other context about the issue here.'
+      placeholder: 'Include steps to reproduce, when the issue was first noticed, or any potential causes.'

@@ -6,6 +6,7 @@ This is a GitHub template designed for small projects that is independent of the
 [![GitHub forks](https://img.shields.io/github/forks/maehr/github-template.svg)](https://github.com/maehr/github-template/network)
 [![GitHub stars](https://img.shields.io/github/stars/maehr/github-template.svg)](https://github.com/maehr/github-template/stargazers)
 [![GitHub license](https://img.shields.io/github/license/maehr/github-template.svg)](https://github.com/maehr/github-template/blob/main/LICENSE.md)
+[![DOI](https://zenodo.org/badge/DOI/YOUR_DOI_HERE.svg)](https://doi.org/YOUR_DOI_HERE)
 
 ## Why use a template (even for small projects)
 
@@ -14,6 +15,7 @@ This is a GitHub template designed for small projects that is independent of the
 - Increase [security](#security)
 - Follow recognized [ethical principles](#ethics)
 - Promote [Free and Open-source software](#foss)
+- Enable proper [academic citation](#citation) and archiving
 
 ## How this template helps you
 
@@ -24,6 +26,7 @@ This is a GitHub template designed for small projects that is independent of the
 - Automated [CHANGELOG.md](CHANGELOG.md) via [git-cliff](https://github.com/orhun/git-cliff)
 - [package.json](package.json) according to [npm docs](https://docs.npmjs.com/cli/v7/configuring-npm/package-json)
 - Accessible documentation via [gh-pages](https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages)
+- [TODO.md](TODO.md) checklist for project setup and customization
 
 ### Consistency
 
@@ -31,7 +34,7 @@ This is a GitHub template designed for small projects that is independent of the
 - Consistent commit messages according to [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) via [husky](https://github.com/typicode/husky)
 - Consistent versioning via [Semantic Versioning](https://semver.org/spec/v2.0.0.html)
 - Consistent [fork and pull](https://gist.github.com/Chaser324/ce0505fbed06b947d962) workflow via [GitHub branch protection](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/managing-a-branch-protection-rule)
-- Consistent issues via [issue templates](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository)
+- Consistent issues via [issue templates](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository) including specialized templates for bugs, features, documentation, and data issues
 
 ### Security
 
@@ -48,6 +51,12 @@ This is a GitHub template designed for small projects that is independent of the
 
 - [LICENSE.md](LICENSE.md) according to [choosealicense.com](https://choosealicense.com/)
 
+### Citation
+
+- [CITATION.cff](CITATION.cff) according to [Citation File Format](https://citation-file-format.github.io/)
+- Automatic archiving with [Zenodo](https://zenodo.org/) via [.zenodo.json](.zenodo.json) for DOI generation
+- GitHub citation widget support for proper academic attribution
+
 ## Installation
 
 To initialize the template, [generate](https://github.com/maehr/github-template/generate) or [clone](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) the repository to your local machine and follow this guide.
@@ -59,11 +68,11 @@ npm install
 npm run prepare
 ```
 
-2. Complete the following checklist of tasks to customize the template for your project:
+2. Complete the comprehensive setup checklist in [TODO.md](TODO.md) to customize the template for your project. This includes:
 
 - [ ] enable [GitHub security alerts](https://github.blog/2017-11-16-introducing-security-alerts-on-github/)
 - [ ] [protect](https://help.github.com/en/articles/configuring-protected-branches) the main branch to enforce a [fork and pull](https://gist.github.com/Chaser324/ce0505fbed06b947d962) workflow
-- [ ] search and replace `FULLNAME`, `USERNAME`, `REPO_NAME`, `SHORT_DESCRIPTION` `[INSERT CONTACT METHOD]` in [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md), [package.json](package.json), [README.md](README.md), [SECURITY.md](SECURITY.md), [config.yml](.github/ISSUE_TEMPLATE/config.yml)
+- [ ] search and replace `FULLNAME`, `USERNAME`, `REPO_NAME`, `SHORT_DESCRIPTION` `[INSERT CONTACT METHOD]` in [CITATION.cff](CITATION.cff), [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md), [package.json](package.json), [README.md](README.md), [SECURITY.md](SECURITY.md), [config.yml](.github/ISSUE_TEMPLATE/config.yml), and [.zenodo.json](.zenodo.json)
 - [ ] add favicons to `./`, e.g. via [favicon.io](https://favicon.io/)
 - [ ] search for `TODO` in the project (mostly documentation) and fix it
 - [ ] delete [README.md](README.md)

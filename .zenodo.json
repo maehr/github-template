@@ -1,0 +1,21 @@
+{
+	"title": "REPO_NAME",
+	"description": "SHORT_DESCRIPTION",
+	"license": "AGPL-3.0",
+	"upload_type": "software",
+	"creators": [
+		{
+			"name": "FULLNAME",
+			"affiliation": "Your Institution"
+		}
+	],
+	"keywords": ["github", "template"],
+	"related_identifiers": [
+		{
+			"scheme": "url",
+			"identifier": "https://github.com/USERNAME/REPO_NAME",
+			"relation": "isSupplementTo"
+		}
+	],
+	"contributors": []
+}
