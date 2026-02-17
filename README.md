@@ -72,7 +72,7 @@ npm run prepare
 
 - [ ] enable [GitHub security alerts](https://github.blog/2017-11-16-introducing-security-alerts-on-github/)
 - [ ] [protect](https://help.github.com/en/articles/configuring-protected-branches) the main branch to enforce a [fork and pull](https://gist.github.com/Chaser324/ce0505fbed06b947d962) workflow
-- [ ] search and replace `FULLNAME`, `USERNAME`, `REPO_NAME`, `SHORT_DESCRIPTION` `[INSERT CONTACT METHOD]` in [CITATION.cff](CITATION.cff), [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md), [package.json](package.json), [README.md](README.md), [SECURITY.md](SECURITY.md), [config.yml](.github/ISSUE_TEMPLATE/config.yml), and [.zenodo.json](.zenodo.json)
+- [ ] search and replace `FULLNAME`, `USERNAME`, `REPO_NAME`, `SHORT_DESCRIPTION`, `[INSERT CONTACT METHOD]` in [CITATION.cff](CITATION.cff), [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md), [package.json](package.json), [README.md](README.md), [SECURITY.md](SECURITY.md), [config.yml](.github/ISSUE_TEMPLATE/config.yml), and [.zenodo.json](.zenodo.json)
 - [ ] add favicons to `./`, e.g. via [favicon.io](https://favicon.io/)
 - [ ] search for `TODO` in the project (mostly documentation) and fix it
 - [ ] delete [README.md](README.md)

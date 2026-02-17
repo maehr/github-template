@@ -6,7 +6,7 @@ message: >-
   metadata from this file.
 type: software
 authors:
-  - given-names: FULLNAME
+  - family-names: FULLNAME
     email: '[INSERT CONTACT METHOD]'
 repository-code: 'https://github.com/USERNAME/REPO_NAME'
 url: 'https://github.com/USERNAME/REPO_NAME'
