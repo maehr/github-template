@@ -63,11 +63,11 @@ npm run prepare
 
 - [ ] enable [GitHub security alerts](https://github.blog/2017-11-16-introducing-security-alerts-on-github/)
 - [ ] [protect](https://help.github.com/en/articles/configuring-protected-branches) the main branch to enforce a [fork and pull](https://gist.github.com/Chaser324/ce0505fbed06b947d962) workflow
-- [ ] search and replace `FULLNAME`, `USERNAME`, `REPO_NAME`, `SHORT_DESCRIPTION` `[INSERT CONTACT METHOD]` in [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md), [package.json](package.json), [README.md](README.md), [SECURITY.md](SECURITY.md), [config.yml](.github/ISSUE_TEMPLATE/config.yml)
-- [ ] add favicons to `./`, e.g. via [favicon.io](https://favicon.io/)
-- [ ] search for `TODO` in the project (mostly documentation) and fix it
 - [ ] delete [README.md](README.md)
 - [ ] rename [README.template.md](README.template.md) to [README.md](README.md)
+- [ ] search and replace `FULLNAME`, `USERNAME`, `REPO_NAME`, `SHORT_DESCRIPTION` `[INSERT CONTACT METHOD]` in [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md), [package.json](package.json), [README.md](README.md), [SECURITY.md](SECURITY.md), [.github/ISSUE_TEMPLATE/config.yml](.github/ISSUE_TEMPLATE/config.yml)
+- [ ] add favicons to `./`, e.g. via [favicon.io](https://favicon.io/)
+- [ ] search for `TODO` in the project (mostly documentation) and fix it
 - [ ] run `npm run format` to format all files
 - [ ] run `npm run commit` to commit all changes
 - [ ] run `npm run changelog` and include the output in [CHANGELOG.md](CHANGELOG.md)
