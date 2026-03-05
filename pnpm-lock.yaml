@@ -13,9 +13,6 @@ importers:
       cz-conventional-changelog:
         specifier: ^3.3.0
         version: 3.3.0(@types/node@22.7.5)(typescript@5.4.5)
-      husky:
-        specifier: ^9.1.6
-        version: 9.1.6
       prettier:
         specifier: ^3.3.3
         version: 3.3.3
@@ -495,14 +492,6 @@ packages:
         integrity: sha512-eSmmWE5bZTK2Nou4g0AI3zZ9rswp7GRKoKXS1BLUkvPviOqs4YTN1djQIqrXy9k5gEtdLPy86JjRwsNM9tnDcA==
       }
     engines: { node: '>=0.10.0' }
-
-  husky@9.1.6:
-    resolution:
-      {
-        integrity: sha512-sqbjZKK7kf44hfdE94EoX8MZNk0n7HeW37O4YrVGCF4wzgQjp+akPAkfUK5LZ6KuR/6sqeAVuXHji+RzQgOn5A==
-      }
-    engines: { node: '>=18' }
-    hasBin: true
 
   iconv-lite@0.4.24:
     resolution:
@@ -1378,8 +1367,6 @@ snapshots:
   homedir-polyfill@1.0.3:
     dependencies:
       parse-passwd: 1.0.0
-
-  husky@9.1.6: {}
 
   iconv-lite@0.4.24:
     dependencies:
